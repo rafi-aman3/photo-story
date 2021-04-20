@@ -1,0 +1,23 @@
+.booking-container {
+    background-image: url('../../../img/da.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+    background-position: center center;
+}
+
+.booking-container::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(139, 75, 177, 0.582) ;
+    opacity: .8;
+    top: 0;
+}
+
+.booking-container img {
+    height: 500px;
+}

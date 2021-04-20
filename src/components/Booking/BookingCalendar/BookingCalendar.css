@@ -1,0 +1,17 @@
+.booking-calendar-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.booking-bg {
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.booking-content {
+    position: relative;
+}
